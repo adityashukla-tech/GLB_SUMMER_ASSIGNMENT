@@ -124,11 +124,11 @@ public class Q105_student_record_system {
         Student target = findStudent(studentList, roll);
         if (target != null) {
             System.out.println("\nRecord Found:");
-            System.out.println("-".repeat(60);
+            System.out.println("-".repeat(60));
             System.out.println("Roll Number : " + target.rollNumber);
             System.out.println("Full Name   : " + target.name);
             System.out.println("Marks       : " + target.marks + "%");
-            System.out.println("-".repeat(60);
+            System.out.println("-".repeat(60));
         } else {
             System.out.println(" Record Not Found: No student matches Roll Number " + roll);
         }
